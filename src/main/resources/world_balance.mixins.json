@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "igentuman.world_balance.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "world_balance.refmap.json",
+  "mixins": [
+    "BoundTickingBlockEntityAccessor",
+    "LevelChunkMixin",
+    "RebindableTickingBlockEntityAccessor",
+    "TickingBlockEntityMixin"
+  ],
+  "server": [
+
+  ],
+  "client": [
+
+  ],
+  "minVersion": "0.8"
+}
